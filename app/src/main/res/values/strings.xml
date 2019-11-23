@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">E_magang</string>
+    <string name="loader_text">E-Magang</string>
+    <string name="register">REGISTER</string>
+    <string name="smk_bisa_smk_hebat">SMK Bisa! SMK Hebat!</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="full_name">Full Name</string>
+    <string name="school">School</string>
+    <string name="job">Job</string>
+    <string name="teacher">Teacher</string>
+    <string name="student">Student</string>
+    <string name="sekolah">Sekolah</string>
+    <string name="dudi">DUDI</string>
+    <string name="siswa">Siswa</string>
+    <string name="tentang">Tentang</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profil_sekolah">Profil Sekolah</string>
+    <string name="nama_sekolah">Nama sekolah :</string>
+    <string name="jurusan">Jurusan :</string>
+    <string name="save_data">SAVE DATA</string>
+    <string name="delete_data">DELETE DATA</string>
+    <string name="update_data">UPDATE DATA</string>
+    <string name="profil_dudi">PROFIL DUDI</string>
+    <string name="forgot_password_click_here">Forgot Password? Use OTP code</string>
+</resources>

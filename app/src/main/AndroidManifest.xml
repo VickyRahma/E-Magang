@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="vickyrahma.smkn9.e_magang">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_emagang_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name=".DataKantorBdpActivity"></activity>
+        <activity android:name=".DataSiswaBdpActivity" />
+        <activity android:name=".DataSiswaOtpActivity" />
+        <activity android:name=".DataKantorOtpActivity" />
+        <activity android:name=".DataSiswaAklActivity" />
+        <activity android:name=".DataKantorAklActivity" />
+        <activity android:name=".DataKantorRplActivity" />
+        <activity android:name=".DataSiswaRplActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".RplActivity" />
+        <activity android:name=".BisnisActivity" />
+        <activity android:name=".PerkantoranActivity" />
+        <activity android:name=".AkuntansiActivity" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".DashboardActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity" /> <!-- suppress AndroidDomInspection -->
+        <!-- suppress AndroidDomInspection -->
+        <activity
+            android:name=".SplashScreen"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
